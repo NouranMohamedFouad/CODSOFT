@@ -5,7 +5,7 @@
 
 .navColor{
     background-image: 
-    linear-gradient(to right, rgb(190, 232, 232) ,rgb(0, 0, 0), rgb(190, 232, 232) );
+    linear-gradient(to right, rgba(190, 232, 232, 0.647) ,rgb(0, 0, 0), rgb(190, 232, 232, 0.647) );
 
 }
 /* ////////////////////////////////////////////////////// */
@@ -88,7 +88,10 @@ button:hover
 }
 
 .section2 p{
-    width: 40%;
+    width: 60%;
+    color: rgb(21, 193, 231);
+    background-color: rgba(0, 0, 0, 0.414);
+    border-radius: 5%;
 }
 
 .section2 h1{
@@ -172,7 +175,7 @@ button:hover
 /* ////////////////////////////////////////////////////// */
 
 footer{
-    background-image:linear-gradient( rgba(0, 0, 0, 0.843),  antiquewhite , rgba(0, 0, 0, 0.843) );  
+    background-image:linear-gradient( rgb(0, 0, 0),  antiquewhite , rgba(0, 0, 0, 0.843) );  
     color: black;
     font-size: 20px;
 }
